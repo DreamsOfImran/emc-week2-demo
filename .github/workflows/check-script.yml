@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v4
       
       - name: Permission for shell script
-        run: chmod +x ./dhina.sh
+        run: chmod +x check-script.sh
       
       - name: Run shell script
-        run: ./dhina.sh
+        run: check-script.sh
