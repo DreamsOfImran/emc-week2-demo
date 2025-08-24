@@ -13,4 +13,4 @@ jobs:
         run: chmod +x check-script.sh
       
       - name: Run shell script
-        run: ./check-script.sh
+        run: check-script.sh
